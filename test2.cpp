@@ -3,16 +3,16 @@
 int main()
 {
 	FILE*fp;
-	fp=fopen("abc.txt","r");
+	fp=fopen("date.txt","r");
 	if(fp==NULL){
-		printf(" ß∞‹\n");
+		printf("failure\n");
 		return 1; 
 	}
 	char shuru[256];
 	char cunfang[256];
 	while(1){
 	
-		printf("«Î ‰»Î£∫");
+		printf("please enter\n");
 		scanf("%s",shuru);
 		if(strcmp(shuru,"Quit")==0){
 			break;
@@ -74,3 +74,4 @@ int main()
 	
 	
 }
+
