@@ -4,14 +4,15 @@ int main()
 {
 
     char word[ 100];
+	whilr(1){
     scanf("%s",&word);
     if(strcmp(word,"Dian")==0)
     printf("2002\n");
     else if(strcmp(word,"Quit")==0)
-    return 0;
+   break;
     else
     printf("Error")
-;
+;}
     
     
     
@@ -66,3 +67,4 @@ int main()
 	
 	return 0;
 }
+
