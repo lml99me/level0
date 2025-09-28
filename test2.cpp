@@ -12,7 +12,7 @@ int main()
 	char cunfang[256];
 	while(1){
 	
-		printf("please enter\n");
+		printf("please enter:\n");
 		scanf("%s",shuru);
 		if(strcmp(shuru,"Quit")==0){
 			break;
@@ -74,4 +74,5 @@ int main()
 	
 	
 }
+
 
