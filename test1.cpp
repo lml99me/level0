@@ -11,60 +11,9 @@ int main()
     else if(strcmp(word,"Quit")==0)
    break;
     else
-    printf("Error")
-;}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-	
-   
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	return 0;
+    printf("Error");
+	}
+    return 0;
 }
+
 
